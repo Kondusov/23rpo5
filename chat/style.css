@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#0f1419;color:#e6e9ed}
+#app{display:flex;align-items:stretch;min-height:100vh}
+.auth{margin:auto;max-width:360px;padding:24px;background:#151b23;border:1px solid #263241;border-radius:12px}
+.auth h2{margin-top:0}
+.auth input{width:100%;padding:10px 12px;margin:6px 0;background:#0f1419;border:1px solid #2b3a4b;color:#e6e9ed;border-radius:8px}
+.auth-actions{display:flex;gap:8px;margin-top:8px}
+.auth button{flex:1;padding:10px 12px;background:#2563eb;border:none;color:#fff;border-radius:8px;cursor:pointer}
+.auth .error{color:#ff6b6b;margin-top:8px;min-height:20px}
+
+.chat{display:flex;flex:1}
+.sidebar{width:280px;background:#11161d;border-right:1px solid #263241;padding:12px;display:flex;flex-direction:column}
+.me{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.new-chat input{width:100%;padding:8px 10px;margin:6px 0;background:#0f1419;border:1px solid #2b3a4b;color:#e6e9ed;border-radius:8px}
+.new-chat button{padding:8px 10px;background:#16a34a;border:none;color:#fff;border-radius:8px;cursor:pointer}
+.sidebar h3{margin:12px 0 6px 0}
+#chat-list{list-style:none;padding:0;margin:0;overflow:auto}
+#chat-list li{padding:10px;border-radius:8px;cursor:pointer}
+#chat-list li:hover{background:#1b2430}
+#chat-list li.active{background:#223044}
+
+.messages{display:flex;flex-direction:column;flex:1}
+#chat-title{padding:12px;border-bottom:1px solid #263241}
+#message-list{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:8px}
+.msg{max-width:70%;padding:8px 10px;border-radius:10px;background:#1b2430}
+.msg.mine{align-self:flex-end;background:#2563eb}
+.msg .from{opacity:.75;margin-right:6px}
+.msg .time{opacity:.6;margin-left:8px;font-size:12px}
+.composer{display:flex;gap:8px;border-top:1px solid #263241;padding:12px}
+.composer input{flex:1;padding:10px 12px;background:#0f1419;border:1px solid #2b3a4b;color:#e6e9ed;border-radius:8px}
+.composer button{padding:10px 12px;background:#2563eb;border:none;color:#fff;border-radius:8px;cursor:pointer}
+
+
