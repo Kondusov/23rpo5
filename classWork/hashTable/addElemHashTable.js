@@ -10,3 +10,4 @@ arr1 = {
 addElemHashTable(arr1, 'lemon', 200);
 addElemHashTable(arr1, 'tomato', 150);
 addElemHashTable(arr1, 'lemon', 500);
+console.log(arr1)
